@@ -1,3 +1,7 @@
+// class uses another class =>>  extends
+// class uses interface =>> implements
+// interface uses another interface =>> extends
+
 class Rectangle implements Shape {
     a: number;
     b: number;
@@ -63,6 +67,3 @@ interface SquareShape extends Shape {
 //     perimeter() { return 40 }
 // }
 
-// class uses another class =>>  extends
-// class uses interface =>> implements
-// interface uses another interface =>> extends
