@@ -1,0 +1,19 @@
+{
+  "name": "typescript-test-project",
+  "version": "1.0.0",
+  "description": "This is a demoproject of Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc classes.ts --watch",
+    "start": "lite-server"
+  },
+  "author": "A.M.",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
